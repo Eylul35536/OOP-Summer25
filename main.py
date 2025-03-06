@@ -1,3 +1,7 @@
-# change it to print your name
+class Person:
+  def __init__(self, name, age)
+  self.name = name
+  self.age = age
 
-print("Hello, I am Piotr Brudny")
+p1 = Person("Eylul" , 21 )
+print(p1.name , p1.age)
